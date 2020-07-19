@@ -1,0 +1,260 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--allows placing icons like phone and mail icons etc-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Photo Ninja</title>
+
+    <style>
+      header {
+        background: url("img/lambo2.jpg");
+        background-size:cover;
+        background-position: center;
+        min-height: 1000px;
+      }
+      
+      nav{
+        position: fixed;
+      }
+
+      .section{
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+      }
+    </style>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper grey darken-4" style="z-index: 1;">
+      <div class="container">
+        <a href="#" class="brand-logo" st>Cars & Coffee </a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#theWorld" style="font-style: italic;">The Lambo World !</a></li>
+          <li><a href="#services" style="font-style: italic;">Services Required</a></li>
+          <li><a href="#events" style="font-style: italic;">Events & Meetups</a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small transparent darken-4" data-tooltip="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small transparent darken-4" data-tooltip="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small transparent darken-4" data-tooltip="Twitter">
+            <i class="fab fa-linkedin"></i>
+          </a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#theWorld">The Lambo World !</a></li>
+          <li><a href="#services">Services Required</a></li>
+          <li><a href="#events">Events & Meetups</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- photo / grid -->
+
+  <section class="container section scrollspy" id="theWorld">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/museum.jpg" class="responsive-img materialboxed" style="top:20px;">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">
+          Lamborghini Museum
+        </h2>
+        <p style="font-style: italic;">The Museo Lamborghini is an automobile museum owned and operated by Automobili Lamborghini S.p.A in Sant'Agata Bolognese, Emilia-Romagna, Italy. The two-storey museum opened in 2001, and was renovated in June 2016 to provide exhibit space for more models.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 l4 push-l7 offset-l1">
+        <img src="img/showroom.jpg" class="responsive-img materialboxed" style="top:100px;">
+      </div>
+      <div class="col s12 l6 pull-l5 right-align offset-l1">
+        <h2 class="indigo-text text-darken-4">
+          Lamborghini Newport Beach Showroom
+        </h2>
+        <p style="font-style: italic;">Lamborghini Newport Beach in Irvine, CA is the ONLY factory authorized dealership in Orange County providing Super Sports Cars to Southern California. As a factory authorized Lamborghini dealership, they provide new and pre-owned Lamborghinis to Orange County including the coastal communities of Newport.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/giphy2.gif" class="responsive-img">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">
+          Lamborghini Videos
+        </h2>
+        <p style="font-style: italic;"> Automotive Videography? All You Need To Know. ​Automotive videography many people think it's just all about shooting cars; no, rather its more about creating an effect or creating a big picture that has to feature a car as the subject.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/giphy.gif" alt="" class="responsive-img">
+    </div>
+  </div>
+
+
+  <!-- services / tabs -->
+  <section id="services" class="container section scrollspy">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken-4">Whats Your Desire?</h2>
+          <p style="font-style: italic; font-size: 16px;">We are providing you the platoform to share your skills for the different photography and videgrphy of lamborghini all around the world. Photography or videography from any events also can be shared.</p>
+          <p style="font-style: italic; font-size: 16px;">You can also share your own Blogs links so that people can be attracted to your work and appreciate your work.</p>
+        </div>
+    <div class="col s12 l6 offset-l2">
+      <ul class="tabs">
+        <li class="tab col s6">
+          <a href="#photography" class="indio-text text-darken-4">Photography De Lambo</a>
+        </li>
+        <li class="tab col s6">
+          <a href="#videography" class="indio-text text-darken-4">Videography De Lambo</a>
+        </li>
+      </ul>
+      <div class="col s12" id="photography">
+        <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+        <p style="font-style: italic;">Show your skills for photography!</p>
+        <img src="img/photo_shoot.jpg" class="responsive-img">
+      </div>
+      <div class="col s12" id="videography">
+        <p class="flow-text indigo-text text-darken-4">VIDEOGRAPHY</p>
+        <p style="font-style: italic;">In this era of drones show the best you can!</p>
+        <img src="img/shoot_video.gif" class="responsive-img">
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/parallax.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+
+  <!-- contact form -->
+  <section class="container section scrollspy" id="events">
+    <div class="row">
+      <div class="col 12 l5">
+        <h2 class="indigo-text text-darken-4 right-align">Join Events & Meetups</h2>
+        <p class="right-align" style="font-style: italic; font-size: 16px;">Throught the year we arrange several events for lamborghini fans 
+          where fans meet and talk about cars and especially Lamborghini!! 
+        </p>
+        <p class="right-align" style="font-style: italic; font-size: 16px;">If you wish to join us and enjoy the different meetups around the world 
+          fill out the form right next to this!</p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Your Email-Address</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea  id="message" class="materialize-textarea"></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <div class="input-field">
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Choose the Event Date</label>
+          </div>
+          <div class="input-field">
+            <p>Service you like to provide:</p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Photography</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Videography</span>
+              </label>
+            </p>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>About Us</h5>
+          <p>Cars & Coffee is the global phenomenon where the passion of supercar owners and enthusiasts become reality. It is a world class, multibrand and multiperiod display to share the emotions conveyed by the roar of powerful engines and by the sight of so many stunning cars.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>Connect to Us!</h5>
+          <ul>
+            <li>
+              <i class="fab fa-facebook"></i>
+              <a href="#" class="grey-text text-lighten-3">&nbsp; Facebook</a>
+            </li>
+            <li>
+              <i class="fab fa-linkedin"></i>
+              <a href="#" class="grey-text text-lighten-3">&nbsp; LindkedIn</a>
+            </li>
+            <li>
+              <i class="fab fa-instagram"></i>
+              <a href="#" class="grey-text text-lighten-3">&nbsp; Instagram</a>
+            </li>
+            <li>
+              <i class="fab fa-twitter"></i>
+              <a href="#" class="grey-text text-lighten-3">&nbsp; Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2020 Cars & Coffee</div>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <!-- javascript's materialize library for pop ups, windows, nav bars etc-->
+   <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+       
+      });
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+
+</html>
